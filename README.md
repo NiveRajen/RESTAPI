@@ -12,3 +12,17 @@ In essence, RESTful APIs emphasize a consistent, resource-oriented approach usin
 
 Protocol: Primarily uses HTTP/HTTPS as its communication protocol.
 Data Formats: Supports multiple formats such as JSON, XML, HTML, and plain text, with JSON being the most common.
+
+
+Best Practices:
+Always use HTTPS for all API endpoints.
+Obtain a valid SSL/TLS certificate from a trusted certificate authority.
+Implement HSTS (HTTP Strict Transport Security) to enforce secure connections.
+
+Authentication:
+OAuth: A widely used authorization framework that allows third-party applications to access user data without exposing credentials.
+Use OAuth 2.0 for secure token-based authentication.
+
+
+
+Implement rate limiting and input size restrictions to mitigate DoS (Denial of Service) attacks.
